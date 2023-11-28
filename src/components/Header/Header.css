@@ -1,0 +1,18 @@
+.header{
+    background-color: cadetblue;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header a{
+    margin-right: 30px;
+    color: white;
+    font-size: 19px;
+}
+
+.header a:hover{
+    color: orange;
+    transition: 0.5s;
+}

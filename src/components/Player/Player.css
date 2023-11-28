@@ -1,0 +1,42 @@
+.player{
+    width: 265px;
+    height: 520px;
+    border: 1px solid #95a0a7;
+    border-radius: 8px;
+    position: relative;
+}
+
+.player img{
+    width: 250px;
+    height: 200;
+    margin: 7px;
+    border-radius: 8px;
+    margin-bottom: 0;
+}
+
+.player-info{
+    margin-left: 10px;
+}
+.player-info h3{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.player-info p{
+    margin: 0;
+}
+
+.cart-btn{
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid #95A0A7;
+    background: #FFE0B3;
+    position: absolute;
+    bottom: 0;
+}
+
+.cart-btn:hover {
+    background-color: orange;
+    transition: 0.3s;
+    border: none;
+}
